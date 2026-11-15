@@ -1,29 +1,33 @@
-# minerd-analisis-matricula
-Análisis y Modelado de la Matrícula Escolar en República Dominicana (2015-2024) 
-Este repositorio contiene el proyecto final de análisis de datos y aprendizaje automático enfocado en las estadísticas del Ministerio de Educación (MINERD). El objetivo principal fue estudiar la evolución de la matrícula estudiantil por nivel educativo, regional y distrito para identificar tendencias y desarrollar modelos de estimación.
+# 📈 Análisis y Modelado de la Matrícula Escolar en República Dominicana (2015-2024)
 
-El Proyecto
+> *Proyecto de análisis de datos y machine learning enfocado en las estadísticas oficiales del Ministerio de Educación (MINERD) para estudiar la evolución de la matrícula estudiantil por nivel educativo, regional y distrito.*
 
-Utilizamos un conjunto de datos abiertos del portal oficial de la República Dominicana con más de 1,200 registros. Analizamos cómo se distribuyen los estudiantes en los niveles Inicial, Primario, Secundario y de Adultos a lo largo de casi una década, permitiendo visualizar el impacto de las políticas públicas en diferentes zonas del país.
+Este repositorio contiene un estudio detallado sobre cómo se han distribuido los estudiantes en los niveles Inicial, Primario, Secundario y de Adultos a lo largo de casi una década, utilizando un conjunto de datos abiertos con más de 1,200 registros provenientes del portal oficial del país.
 
-Lo que hicimos
-Ingeniería de datos: Limpiamos y estandarizamos nombres de distritos y corregimos inconsistencias temporales en los registros.
+---
 
-Preprocesamiento avanzado: Implementamos codificación de variables categóricas (Label Encoding) y normalización de datos numéricos para preparar el dataset para algoritmos de Machine Learning.
+## 💡 ¿Qué hicimos en este proyecto?
 
-Análisis Exploratorio (EDA): Creamos visualizaciones para comparar el crecimiento de la matrícula entre niveles y detectar disparidades regionales significativas.
+* **Ingeniería de Datos:** Limpieza, estandarización de nombres de distritos y corrección de inconsistencias temporales en los registros oficiales.
+* **Preprocesamiento Avanzado:** Implementación de codificación de variables categóricas (*Label Encoding*) y normalización de datos numéricos para preparar el dataset de cara a algoritmos de Machine Learning.
+* **Análisis Exploratorio (EDA):** Creación de visualizaciones dinámicas para comparar el crecimiento de la matrícula entre distintos niveles educativos y detectar disparidades regionales significativas.
+* **Preparación para Modelado:** Estructuración de los datos enfocada en variables críticas (como el año de inicio y el ID regional) para facilitar tareas de regresión y series de tiempo.
 
-Preparación para modelos: Estructuramos los datos para facilitar tareas de regresión o series de tiempo, enfocándonos en variables críticas como el año de inicio y el ID regional.
+---
 
-Herramientas utilizadas
+## 💻 Stack Tecnológico
 
-Python como lenguaje principal.
+* **Lenguaje:** Python
+* **Procesamiento y Limpieza:** Pandas y NumPy
+* **Visualización Estadística:** Matplotlib y Seaborn
+* **Preprocesamiento:** Scikit-learn (escalamiento y codificación de características)
 
-Pandas y NumPy para el procesamiento de datos.
+---
 
-Matplotlib y Seaborn para la generación de gráficos estadísticos.
+## 📂 Fuente de Datos y Estructura
 
-Scikit-learn para el escalamiento y preprocesamiento de características.
+* **Fuente:** Repositorio de Datos Abiertos de la República Dominicana (*datos.gob.do*), específicamente el dataset de estudiantes matriculados por nivel según regional y distrito.
+* **`Modelado_de_Datos_con_Aprendizaje_Automático.ipynb`**: El Jupyter Notebook principal que contiene todo el flujo de análisis, preprocesamiento y experimentación con modelos.
 
-Fuente de datos
-Los datos provienen del repositorio de Datos Abiertos de la República Dominicana (datos.gob.do), específicamente del dataset de estudiantes matriculados por nivel según regional y distrito.
+---
+*Desarrollado para aplicar la ciencia de datos en la comprensión y evaluación del impacto de las políticas públicas educativas.* ✨
