@@ -23,11 +23,4 @@ Este repositorio contiene un estudio detallado sobre cómo se han distribuido lo
 * **Preprocesamiento:** Scikit-learn (escalamiento y codificación de características)
 
 ---
-
-## 📂 Fuente de Datos y Estructura
-
-* **Fuente:** Repositorio de Datos Abiertos de la República Dominicana (*datos.gob.do*), específicamente el dataset de estudiantes matriculados por nivel según regional y distrito.
-* **`Modelado_de_Datos_con_Aprendizaje_Automático.ipynb`**: El Jupyter Notebook principal que contiene todo el flujo de análisis, preprocesamiento y experimentación con modelos.
-
----
 *Desarrollado para aplicar la ciencia de datos en la comprensión y evaluación del impacto de las políticas públicas educativas.* ✨
